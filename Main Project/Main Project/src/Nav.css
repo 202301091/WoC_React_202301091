@@ -1,0 +1,45 @@
+.nav{
+    position: relative;
+    display: flex;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg{
+    position: absolute;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    margin: 0 5px;
+    border: none;
+    background-color: purple;
+    margin: 0 5px;
+    border-radius: 12px;
+    width: 107px;
+    cursor: pointer;
+    font-weight: bold;
+   font-size: 15px;
+}
+
+.bg1{
+    right: 155px;
+}
+
+
+.navimg{
+    position: absolute;
+    width: 175px;
+    height: 50px;
+    left: 25px;
+    filter: invert(1);
+}
+
+.bg img{
+    height: 20px;
+    width: 20px;
+    margin-left: -30px;
+    margin-top: 1px;
+}
