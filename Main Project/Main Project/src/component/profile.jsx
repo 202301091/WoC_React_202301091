@@ -27,7 +27,16 @@ function Profile() {
     useEffect(() => {
         fetchdata()
 
-    }, [])
+        const timeout = setTimeout(() => {
+            if (!userDetails) {
+                toast.error("Session expired or user not found", {
+                    position: "top-center",
+                });
+                window.location.href = "/log_in";
+            }
+        }, 3000);
+        return () => clearTimeout(timeout);
+    }, [userDetails]);
 
     const logout = async function () {
         try {
@@ -61,6 +70,7 @@ function Profile() {
                 </div>) : (
                     <div className="loading">
                 <p className="load">Loading...</p>
+                
                 </div>
             )}
         </div>
