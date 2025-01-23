@@ -1,0 +1,72 @@
+.profile{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile2{
+    height: 308px;
+    width: 250px;
+    background-color: #0aab16;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 4px solid blue;
+}
+
+.profile2 h2{
+    color: aqua;
+    font-weight: bold;
+}
+
+.profile2 h3{
+    font-size: 23px;
+    font-weight: 600;
+}
+
+hr{
+    width: 98%;
+    border-color: aqua;
+}
+
+.log_btn{
+    height: 27px;
+    width: 77px;
+    font-size: 16px;
+    padding: 3px;
+    background-color: #ed28e7;
+    border-radius: 5px;
+    border:2px solid #7c267a;;
+}
+
+.loading{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.load{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #11b7a0;
+    color: black;
+    border: 4px solid #c11515;
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    border-radius: 50px;
+    font-weight: 900;
+
+}

@@ -1,0 +1,65 @@
+form{
+    background-color: white;
+    color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #0aab16;
+    color: white;
+    gap: 14px;
+    height: 400px;
+    width: 200px;
+    border: 4px solid blue;
+    border-radius: 8px;
+
+}
+
+.ele{
+    display: flex;
+    flex-direction: column;
+}
+.ele input{
+   border-radius: 6px;
+   padding: 3px;
+   text-align: center;
+}
+
+.ele label{
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.info h4{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.info p span{
+    text-decoration: underline;
+    color: #00ffe7;
+}
+
+.height{
+    height: auto;
+    width: 250px;
+}
+
+.height input{
+    width: 200px;
+}
+
+.height label{
+    font-size: 20px;
+}

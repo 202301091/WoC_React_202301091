@@ -13,7 +13,6 @@
     justify-content: center;
     align-items: center;
     height: 25px;
-    margin: 0 5px;
     border: none;
     background-color: purple;
     margin: 0 5px;
@@ -26,6 +25,7 @@
 
 .bg1{
     right: 155px;
+    margin-top: -11px;
 }
 
 
