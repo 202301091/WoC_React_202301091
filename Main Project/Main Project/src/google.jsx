@@ -21,7 +21,7 @@ const google = () => {
                 toast.success("Login Successfully", {
                                 position: "top-center",
                             });
-                window.location.href="/profile";
+                window.location.href="/ai";
             }
         })
     }

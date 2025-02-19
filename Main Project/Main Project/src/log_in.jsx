@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './sign_up.css'
 import { signInWithEmailAndPassword } from 'firebase/auth/web-extension';
-import { auth } from './component/firebase';
+import { auth } from './firebase';
 import { toast } from 'react-toastify';
-import Google from './component/google';
+import Google from './google';
 const log_in = () => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
@@ -14,7 +14,7 @@ const log_in = () => {
 
         try {
             await signInWithEmailAndPassword(auth, email, password);
-            window.location.href="/profile"
+            window.location.href="/ai"
             toast.success("Login Successfully", {
                 position: "top-center",
             });

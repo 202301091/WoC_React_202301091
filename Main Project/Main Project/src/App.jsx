@@ -11,8 +11,9 @@ import Home_body from './Home_body'
 import SignUpForm from './sign_up';
 import LoginForm from './log_in';
 import { ToastContainer } from 'react-toastify';
-import Profile from './component/profile';
-import { auth } from './component/firebase';
+import { auth } from './firebase';
+import Ai from './AI';
+import IDE from './IDE';
 
 function App() {
   /* If page already Login then direct open that page */
@@ -27,10 +28,11 @@ function App() {
     <>
      <Router>
       <Routes>
-        <Route path="/" element={User?<Navigate to="/profile"/> :<div><Home /><Home_body /></div>} />
+        <Route path="/" element={User?<Navigate to="/ai"/> :<div><Home /><Home_body /></div>} />
         <Route path="/sign_up" element={<SignUpForm />} />
         <Route path="/log_in" element={<LoginForm />} />
-         <Route  path="/profile"  element={<Profile/>}/>
+         <Route path="/ai"  element={<Ai/>}/>
+         <Route path='/ide' element={<IDE/>}/>
       </Routes>
        <ToastContainer/>
     </Router>

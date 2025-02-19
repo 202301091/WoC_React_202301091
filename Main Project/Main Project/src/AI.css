@@ -1,0 +1,113 @@
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4CAF50 #f1f1f1; /* Thumb color & Track color */
+}
+.AI_Box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .que {
+    position: absolute;
+    bottom: 10px;
+    width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 90vh;
+    background-color: #3a3939;
+    border-radius: 20px;
+  }
+  
+  .text {
+    height: 72vh; 
+    position: absolute;
+    bottom: 65px;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+    overflow-y: auto;
+    padding-right: 10px;
+  }
+  
+  
+  .que img {
+    position: absolute;
+    right: 10px;
+    bottom: 0px;
+    height: 41px;
+    width: 45px;
+  }
+  
+  .que input {
+    width: 52vw;
+    border-radius: 20px;
+    background-color: rgb(156, 155, 155);
+    text-align: center;
+    color: black;
+    margin-left: 30px;
+    height: 25px;
+    font-size: 20px;
+  }
+  
+  .ask {
+    position: absolute;
+    bottom: 5px;
+    margin-left: 5px;
+    background-color: gray;
+    width: 59vw;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+  }
+  
+  .insert{
+    color: black;
+    background-color: rgb(156, 155, 155);
+    border: 2px solid black;
+    width: auto;
+    border-radius: 10px;
+    padding: 7px;
+    max-width: 40%;
+}
+  
+  .left {
+    position: relative;
+    align-self: flex-start;
+  }
+  
+  .right {
+    position: relative;
+    align-self: flex-end;
+  }
+
+  .profile_ai{
+    position: absolute;
+    top: 0px;
+    left: 4px;
+  }
+
+  .profile_ai img{
+    position: relative;
+    width: 90px;
+    height: 40px;
+    left: 69px;
+    top: 10px;
+  }
+  
+
+  .show{
+    position: relative;
+    left: -0px;
+    top: -0px;
+    z-index: 2;
+    display: none;
+  }

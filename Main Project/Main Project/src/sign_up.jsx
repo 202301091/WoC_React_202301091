@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import './sign_up.css';
 import { createUserWithEmailAndPassword } from 'firebase/auth';
 import { Link } from 'react-router-dom';
-import { auth, db } from "./component/firebase.js";
+import { auth, db } from "./firebase.js";
 import { setDoc, doc } from "firebase/firestore";
 import { toast } from "react-toastify";
-import Google from './component/google';
+import Google from './google';
 const SignUpForm = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
